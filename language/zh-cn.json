@@ -1,0 +1,102 @@
+{
+  "semantics": [
+    {
+      "label": "任务描述"
+    },
+    {
+      "widgets": [
+        {
+          "label": "Default"
+        }
+      ],
+      "label": "卡片",
+      "entity": "card",
+      "field": {
+        "label": "Card",
+        "fields": [
+          {
+            "label": "问题",
+            "description": "Optional textual question for the card. (The card may use just an image, just a text or both)"
+          },
+          {
+            "label": "答案",
+            "description": "Optional answer(solution) for the card."
+          },
+          {
+            "label": "图片",
+            "description": "Optional image for the card. (The card may use just an image, just a text or both)"
+          },
+          {
+            "label": "提示",
+            "fields": [
+              {
+                "label": "Tip text"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "进度文本",
+      "default": "Card @card of @total",
+      "description": "Progress text, variables available: @card and @total. Example: 'Card @card of @total'"
+    },
+    {
+      "label": "下一个按钮的文本",
+      "default": "下一个"
+    },
+    {
+      "label": "上一个按钮的文本",
+      "default": "上一个"
+    },
+    {
+      "label": "核对答案按钮的文本Text for the check answers button",
+      "default": "检查"
+    },
+    {
+      "label": "要求用户先输入才能查看答案"
+    },
+    {
+      "label": "Text for the answer input field",
+      "default": "你的答案"
+    },
+    {
+      "label": "正确答案的文本",
+      "default": "正确"
+    },
+    {
+      "label": "错误答案的文本",
+      "default": "错误"
+    },
+    {
+      "label": "显示答案文本",
+      "default": "正确答案"
+    },
+    {
+      "label": "Text for results title",
+      "default": "结果"
+    },
+    {
+      "label": "Text for number of correct",
+      "default": "@score of @total correct",
+      "description": "Result text, variables available: @score and @total. Example: '@score of @total correct'"
+    },
+    {
+      "label": "显示结果的文本",
+      "default": "显示结果"
+    },
+    {
+      "label": "Text for short answer label",
+      "default": "A:"
+    },
+    {
+      "label": " \"重试\" 按钮的文本",
+      "default": "重试"
+    },
+    {
+      "label": "区分大小写",
+      "description": "Makes sure the user input has to be exactly the same as the answer."
+    }
+  ]
+}
